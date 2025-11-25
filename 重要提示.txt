@@ -1,0 +1,46 @@
+========================================
+重要提示：Python 环境问题
+========================================
+
+检测到系统上的 Python 环境存在问题，pip 无法正常工作。
+
+解决方案（选择其一）：
+
+方案1：安装新的 Python（推荐）
+----------------------------------------
+1. 访问 https://www.python.org/downloads/
+2. 下载 Python 3.9 或 3.10
+3. 安装时务必勾选 "Add Python to PATH"
+4. 安装完成后，重新运行 "运行分析.bat"
+
+方案2：使用 Microsoft Store 安装 Python
+----------------------------------------
+1. 打开 Microsoft Store
+2. 搜索 "Python 3.10"
+3. 点击安装
+4. 安装完成后，重新运行 "运行分析.bat"
+
+方案3：使用 Google Colab（无需安装）
+----------------------------------------
+1. 访问 https://colab.research.google.com/
+2. 上传 matrix/scRNA_Analysis_Colab.ipynb
+3. 上传 matrix/ 文件夹中的所有数据
+4. 运行 notebook
+
+方案4：使用 Anaconda（推荐用于科学计算）
+----------------------------------------
+1. 访问 https://www.anaconda.com/products/individual
+2. 下载并安装 Anaconda
+3. 打开 Anaconda Prompt
+4. 运行以下命令：
+   conda create -n scRNA python=3.9
+   conda activate scRNA
+   pip install -r requirements.txt
+   python run_analysis.py
+
+========================================
+当前问题：pip 损坏，无法安装包
+建议：安装新的 Python 环境
+========================================
+
+

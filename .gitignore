@@ -1,0 +1,22 @@
+# 缓存文件
+cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# 大型数据文件
+*.zip
+*.h5ad
+matrix/*/matrix.mtx.gz
+
+# 临时文件
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
